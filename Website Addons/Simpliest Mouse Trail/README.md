@@ -2,6 +2,7 @@
 
 # Simple Mouse Trail
 
+*This visual addition will make it a little fancy.**
 
 >  Without this addon
 >
