@@ -7,7 +7,6 @@
 // @match        https://www.kogama.com/profile/*
 // @match        https://kogama.com.br/profile/*
 // @match        https://friends.kogama.com/profile/*
-// @require 	
 // @icon         https://i.pinimg.com/564x/59/d1/21/59d12160b7db286e06f1e0c23eaaa16a.jpg
 // @grant        none
 // ==/UserScript==
