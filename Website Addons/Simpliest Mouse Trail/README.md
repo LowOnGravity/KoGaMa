@@ -3,6 +3,15 @@
 # Simple Mouse Trail
 
 
+>  Without this addon
+>
+> ![ezgif com-crop](https://user-images.githubusercontent.com/96681438/220706594-8bd871d3-f7a1-492f-88bf-d1ec7e243617.gif)
+
+> **With this Addon**
+>
+> ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/96681438/220706626-2159e296-d6cd-4716-af2d-eb5b54df29dd.gif)
+
+
   
   
   > **Click to install:**
