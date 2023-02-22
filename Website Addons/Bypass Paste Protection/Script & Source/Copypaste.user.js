@@ -2,7 +2,7 @@
 // @name         KoGaMa Addon: Bypass Paste Protection
 // @namespace    Simple and useful.
 // @version      1.3
-// @description  Simply enable this script and head onto your profile page.
+// @description  Simply enable this script and enjoy copy-pasting.
 // @author       Simon  { Low On Gravity } 
 // @match        https://www.kogama.com/*
 // @match        https://kogama.com.br/*
