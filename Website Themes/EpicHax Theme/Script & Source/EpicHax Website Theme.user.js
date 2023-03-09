@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         KoGaMa theme: EpicHax
 // @namespace    Dark-Green theme with glowing features, fancy.
-// @version      0.6.8
+// @version      0.7.3
 // @description  This theme is based on an EpicHax presentation by DanieL and Short CSS snippet by Devorkk to follow it up.
-// @author       Devorkk, Simon 
+// @author       Simon, Devorkk
 // @match        https://www.kogama.com/*
 // @match        https://kogama.com.br/*
 // @match        https://friends.kogama.com/*
@@ -57,12 +57,25 @@ body#root-page-mobile header#pageheader nav.menu>ol>li a {
 	color: var(--main);
 	text-shadow: 0 0 10px #65c940;
     line-height: 28px;
-    padding: 10px 46px;
+    padding: 10px 36px;
     margin-left: 140px;
     font-size: .875rem;
     text-transform: none;
     font-family: Open Sans,sans-serif;
     font-weight: 1;
+}
+
+.icon-cubes:before {
+display: none;
+}
+.icon-basket:before {
+display: none;
+}
+.icon-news:before, .icon-video:before {
+display: none;
+}
+.icon-youtube-play:before {
+display: none;
 }
 
 .icon-star:before, .text-gold {
@@ -73,8 +86,15 @@ body#root-page-mobile header#pageheader nav.menu>ol>li a {
 body#root-page-mobile header#pageheader #profile-extended .profile-links ul.links>li.link-group>a {
 	border: none;
 }
-
-
+#mobile-page #news-post .post-content .post-body {
+    color: rgb(174 74 77);
+    border-radius: 25px;
+        background-color: hsl(0deg 0% 100% / 0%);
+}
+#mobile-page #news-post .post-content .post-body h1, #mobile-page #news-post .post-content .post-body h2, #mobile-page #news-post .post-content .post-body h3, #mobile-page #news-post .post-content .post-body h4 {
+color: rgb(255 255 255);
+text-shadow: 0 0 3px #fff;
+}
 
 /* badge or coupon reward */
 #coupon-reward .modal-content {
@@ -427,7 +447,7 @@ color: #e03a56;
 	color: #808080;
 }
 #profile-news-feed ul.news-feed-thumbs>li.item.status_updated .feed-item .status-message a, #profile-news-feed ul.news-feed-thumbs>li.item.wall_post .feed-item .status-message a {
-	color: #42ed48;
+	color: #edac42;
 	font-weight: bold;
 }
 .icon-crown:before, .icon-users:before, #mobile-page #profile-page .section-top .progression .xp .symbol, #mobile-page #profile-page .section-top .progression .gold i.sprite-icon_gold_dark  {
@@ -500,7 +520,7 @@ text-shadow: 0 0 5px #bf4358;
 /* icon */
 
 body#root-page-mobile header#pageheader .logo .logo-image {
-	background-image: url(https://cdn.discordapp.com/attachments/1069977936943382643/1073627552666636520/a_9ee20758fac305580c9f2b0c730b3387.gif);
+	background-image: url(https://i.pinimg.com/originals/a5/11/80/a51180e1d2fd6ce76281899b5afd59c0.gif);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -648,8 +668,8 @@ text-shadow: 0 0 5px #bf4358;
 color: #e03a56;
 }
 a {
-    color: hsl(303deg 62% 39% / 73%);
- text-shadow: 0 0 5px #e76ee1ba;
+color: hsl(175.82deg 48.9% 60.75%);
+    text-shadow: 0 0 5px #f100eb9e;
  text-decoration: none
 }
 a:hover {
@@ -771,9 +791,27 @@ border: none;
     text-shadow: rgb(232, 44, 57) 0px 0px 5;
 }
 
+footer #footer-header {
+display: none;
+}
+
+footer #footer-company {
+display: none;
+}
+
+footer #footer-about {
+display: none;
+}
+
+footer #footer-links  {
+display: none;
+}
 
 
-
+#root-page-mobile .comments li .header .comments-menu-button-container .comments-menu-button .comment-menu-types {
+background-color: var(--bg-dark);
+border-radius: 25px;
+}
 
 }`)
 
