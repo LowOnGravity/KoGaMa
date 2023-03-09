@@ -5,7 +5,8 @@
 
 > **Preview**
 > 
-> ![image](https://user-images.githubusercontent.com/96681438/221349516-1455b6b2-3ac3-4599-a499-990efce75233.png)
+> ![image](https://user-images.githubusercontent.com/96681438/223999726-1addf566-190f-42b7-bce9-c51aba739920.png)
+
 
 
 > **Click to install:**
