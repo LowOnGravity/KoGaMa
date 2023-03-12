@@ -11,7 +11,7 @@
 >  
 
 
-> **Click to install:**
+
 >
 >  ㅤ[This file is not available yet.](https://github.com/LowOnGravity)
   
