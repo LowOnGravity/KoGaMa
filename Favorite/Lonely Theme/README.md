@@ -1,18 +1,20 @@
 <div align="center"> 
 
-# Fix Comment Deletion
+# Lonely Ocean Theme
 
-*This script might be useful to you.*
+*This is most likely my last KoGaMa Theme.*
 
-> Red circle allows you to delete comments.
+*⚠ Work in progress.*
+
+> Currently available preview.
 >
-> ![image](https://user-images.githubusercontent.com/96681438/224535451-f7c93e8b-f804-422b-a0fc-dd3f3df4b3b5.png)
+> ![image](https://user-images.githubusercontent.com/96681438/224535994-1ab519be-1c18-4897-8b50-642df5a9de75.png)
 
 
 
 > **Click to install:**
 >
->  ㅤ[<img src="https://cdn.discordapp.com/attachments/1078001837573144576/1078001855629623397/Bez_tytuu.png" width="120"/>](https://github.com/LowOnGravity/KoGaMa/raw/main/Website%20Addons/Fix%20Comment%20Deletion/Script%20%26%20Source/FixCommentDeletion.user.js)
+>  ㅤ[This file is not available yet.](https://github.com/LowOnGravity)
   
   
 </div>
