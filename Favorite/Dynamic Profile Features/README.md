@@ -1,15 +1,14 @@
 <div align="center"> 
 
-# Lonely Ocean Theme
+# Dynamic Profile
 
-*This is most likely my last KoGaMa Theme.*
+*Makes a lot of stuff interactable.*
 
 *⚠ Work in progress.*
 
-> Currently available preview.
+> Preview unavailable.
 >
-> ![image](https://user-images.githubusercontent.com/96681438/224535994-1ab519be-1c18-4897-8b50-642df5a9de75.png)
-
+>  
 
 
 > **Click to install:**
