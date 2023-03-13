@@ -10,6 +10,14 @@ const injectCss = (id, css) => {
 
 injectCss("Lonely Theme",`
 
+/* font */
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+
 body#root-page-mobile {
     background-image: url("https://i.imgur.com/rbx4tiy.png");
  background-position: center;
@@ -18,6 +26,9 @@ body#root-page-mobile {
  background-size: cover;
  height: 100%;
 }
+
+
+
 
 
 
@@ -176,6 +187,24 @@ body#root-page-mobile {
 
 
 
+				/* post creator username */
+						#profile-news-feed ul.news-feed-thumbs>li.item .feed-header .feed-text .user {
+							color: #fff;
+										text-shadow: 0 0 3px #fff;
+								 font-size: 1.1rem;
+						}
+
+								/* post time stamp */
+								 #profile-news-feed ul.news-feed-thumbs>li.item .feed-header .feed-time {
+								 	display: none;
+								 }
+
+									/* posted a game stuff */
+									#profile-news-feed ul.news-feed-thumbs>li.item .feed-header .feed-text {
+										color: #36e2d3bd;
+												text-shadow: 0 0 3px #fff;
+														 font-size: 1.1rem;
+									}
 
 
 
@@ -196,6 +225,48 @@ opacity: 0.1;
 	    transition:  0.5s;
 }
 
+
+	/* join-date */
+	#mobile-page #profile-page .section-top .profile-meta .profile-created-date {
+		opacity: 0.1;
+		color: rgb(0 188 212 / 49%);
+		font-weight: 400;
+		 transition:  0.5s;
+
+	}
+		#mobile-page #profile-page .section-top .profile-meta .profile-created-date:hover {
+		opacity: 1;
+		font-weight: 400;
+		 transition:  0.5s;
+
+	}
+
+
+
+
+
+
+
+
+.pure-form input[type=color]:focus, .pure-form input[type=date]:focus, .pure-form input[type=datetime-local]:focus, .pure-form input[type=datetime]:focus, .pure-form input[type=email]:focus, .pure-form input[type=month]:focus, .pure-form input[type=number]:focus, .pure-form input[type=password]:focus, .pure-form input[type=search]:focus, .pure-form input[type=tel]:focus, .pure-form input[type=text]:focus, .pure-form input[type=time]:focus, .pure-form input[type=url]:focus, .pure-form input[type=week]:focus, .pure-form select:focus, .pure-form textarea:focus {
+    background-color: hsl(225.02deg 87.69% 38.28% / 7%);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Side Friend Panel */
 #root-page-mobile #content.authenticated #content-container #main-content
 {
@@ -206,25 +277,6 @@ background-image: url("https://i.imgur.com/rbx4tiy.png");
  background-size: cover;
  height: 100%;
 }
-
-/* dynamic dms */
-.zUJzi
-  {
-    width: 110px;
-    height: 10px;
-    transition: height 0.3s;
-    transition: width 0.3s;
-    opacity: 0.1;
-  }
-  .zUJzi:hover
-  {
-   height: 400px;
-   width: 500px;
-       transition: height 0.3s;
-    transition: width 0.3s;
-     opacity: 1;
-  }
-
 
 
 
@@ -251,13 +303,120 @@ background-image: url("https://i.imgur.com/rbx4tiy.png");
    height: 1000%;
 }
 
+
+
+
+
+
+
+
+ /* dms and shit */
+
+ /* dynamic dms */
+.zUJzi
+  {
+    width: 110px;
+    height: 10px;
+    transition: height 0.3s;
+    transition: width 0.3s;
+    opacity: 0.2;
+    	background-color: rgba(12, 55, 183, 0.07);
+  }
+  .zUJzi:hover
+  {
+   height: 400px;
+   width: 500px;
+       transition: height 0.3s;
+    transition: width 0.3s;
+     opacity: 1;
+     	background-color: rgba(12, 55, 183, 0.07);
+  }
+.uwn5j ._3DYYr ._28mON header {
+	    color: hsl(207.46deg 100% 67.82%);
+}
+
+
 /* Hover Friendlist */
 ._1Yhgq {min-width: unset;position: absolute; right:0;}
 ._1Yhgq {max-width: 65px;min-width: 65px;transition: 0.5s ease;}
 ._1Yhgq:hover {max-width: 240px;min-width: 240px;transition: 0.5s ease;}
- }
 
 
+
+/* style */
+._375XK {
+		background-color: rgba(12, 55, 183, 0.07);
+}
+.zUJzi .o_DA6 .uwn5j {
+	border: none;
+	background-color: rgba(12, 55, 183, 0.07);
+}
+
+._375XK textarea {
+	background-color: rgba(12, 55, 183, 0.07);
+    color: rgb(124, 229, 235);
+    border: none;
+
+}
+
+._375XK ._2XaOw ._1j2Cd._1Xzzq p {
+	background-color: rgb(165 188 255 / 4%);
+    color: #1db7f0;
+    border-radius: 25px;
+
+}
+
+
+._375XK ._2XaOw ._1j2Cd p {
+	box-shadow: 0 0 7px rgb(79 188 201 / 15%);
+	font-size: .80em;
+
+}
+
+.uwn5j ._3DYYr ._1j2Cd {
+	display: none;
+}
+
+
+
+
+
+.zUJzi .o_DA6 .uwn5j ._3DYYr._2dPu4 {
+    border-left: 2px solid #569df380;
+}
+
+
+						.zUJzi .o_DA6 .uwn5j ._3DYYr:hover {
+    background-color: #58a2c44f;
+}
+
+._375XK .F3PyX ._2XzvN {
+	    color: hsl(207.46deg 100% 67.82%);
+	    text-shadow: 0 0 1px #fff;
+}
+
+
+
+._375XK ._2XaOw ._1j2Cd p {
+	color: hsl(192.75deg 97.08% 41.45%);
+    background-color: #d29eec33;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+._375XK .F3PyX {
+	border: none;
+}
 
 /* useless */
 
@@ -281,6 +440,5 @@ footer #footer-header {
 footer #footer-company {
 	display: none;
 }
-
 
  }`)
